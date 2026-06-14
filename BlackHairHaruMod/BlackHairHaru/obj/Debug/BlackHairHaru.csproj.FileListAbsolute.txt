@@ -1,0 +1,15 @@
+C:\Users\Zylvos\Desktop\RoseAndViolet\BlackHairHaru\BlackHairHaruMod\BlackHairHaru\obj\Debug\BlackHairHaru.csproj.AssemblyReference.cache
+C:\Users\Zylvos\Desktop\RoseAndViolet\BlackHairHaru\BlackHairHaruMod\BlackHairHaru\obj\Debug\BlackHairHaru.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zylvos\Desktop\RoseAndViolet\BlackHairHaru\BlackHairHaruMod\BlackHairHaru\obj\Debug\BlackHairHaru.AssemblyInfoInputs.cache
+C:\Users\Zylvos\Desktop\RoseAndViolet\BlackHairHaru\BlackHairHaruMod\BlackHairHaru\obj\Debug\BlackHairHaru.AssemblyInfo.cs
+C:\Users\Zylvos\Desktop\RoseAndViolet\BlackHairHaru\BlackHairHaruMod\BlackHairHaru\obj\Debug\BlackHairHaru.csproj.CoreCompileInputs.cache
+C:\Users\Zylvos\Desktop\Reloaded-II\Mods\BlackHairHaru\Preview.png
+C:\Users\Zylvos\Desktop\Reloaded-II\Mods\BlackHairHaru\ModConfig.json
+C:\Users\Zylvos\Desktop\Reloaded-II\Mods\BlackHairHaru\BlackHairHaru.deps.json
+C:\Users\Zylvos\Desktop\Reloaded-II\Mods\BlackHairHaru\BlackHairHaru.dll
+C:\Users\Zylvos\Desktop\Reloaded-II\Mods\BlackHairHaru\BlackHairHaru.pdb
+C:\Users\Zylvos\Desktop\RoseAndViolet\BlackHairHaru\BlackHairHaruMod\BlackHairHaru\obj\Debug\BlackHai.18D83EB5.Up2Date
+C:\Users\Zylvos\Desktop\RoseAndViolet\BlackHairHaru\BlackHairHaruMod\BlackHairHaru\obj\Debug\BlackHairHaru.dll
+C:\Users\Zylvos\Desktop\RoseAndViolet\BlackHairHaru\BlackHairHaruMod\BlackHairHaru\obj\Debug\refint\BlackHairHaru.dll
+C:\Users\Zylvos\Desktop\RoseAndViolet\BlackHairHaru\BlackHairHaruMod\BlackHairHaru\obj\Debug\BlackHairHaru.pdb
+C:\Users\Zylvos\Desktop\RoseAndViolet\BlackHairHaru\BlackHairHaruMod\BlackHairHaru\obj\Debug\ref\BlackHairHaru.dll
