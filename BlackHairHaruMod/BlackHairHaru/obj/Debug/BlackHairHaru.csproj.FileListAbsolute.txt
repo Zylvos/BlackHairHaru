@@ -13,3 +13,4 @@ C:\Users\Zylvos\Desktop\RoseAndViolet\BlackHairHaru\BlackHairHaruMod\BlackHairHa
 C:\Users\Zylvos\Desktop\RoseAndViolet\BlackHairHaru\BlackHairHaruMod\BlackHairHaru\obj\Debug\refint\BlackHairHaru.dll
 C:\Users\Zylvos\Desktop\RoseAndViolet\BlackHairHaru\BlackHairHaruMod\BlackHairHaru\obj\Debug\BlackHairHaru.pdb
 C:\Users\Zylvos\Desktop\RoseAndViolet\BlackHairHaru\BlackHairHaruMod\BlackHairHaru\obj\Debug\ref\BlackHairHaru.dll
+C:\Users\Zylvos\Desktop\RoseAndViolet\BlackHairHaru\BlackHairHaruMod\BlackHairHaru\obj\Debug\BlackHairHaru.sourcelink.json

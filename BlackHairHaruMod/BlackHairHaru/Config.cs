@@ -64,34 +64,50 @@ public class Config : Configurable<Config>
         [Display(Name = "Haru As Protagonist (Black Hair)")]
         HAPBlackPatch,
 
+        [Display(Name = "P5R Female Protagonist")]
+        FemaleProtagPatch,
+
+        [Display(Name = "Beta FEMC Redux")]
+        BetaFEMCPatch,
+
+        [Display(Name = "Makoto Yuki Over Joker")]
+        P3MakotoPatch,        
+
     }        
 
-    [Category("Bustups")]
+    [Category("Bustups and sprites")]
     [DisplayName("Epic Partypanel In Color")]
-    [Description("Colorful bustup in battle. By Zrego.")]
+    [Description("Colorful sprites in battle. By Zrego.")]
     [DefaultValue(false)]
     [Display(Order = 0)]
     public bool ColorPartyPanelBHH { get; set; } = false;
+
+    [Category("Bustups and sprites")]
+    [DisplayName("No All-Out-Attack Portrait")]
+    [Description("Removes the All-Out-Attack finisher art. By lyncpk.")]
+    [DefaultValue(false)]
+    [Display(Order = 1)]
+    public bool AOABHHValue { get; set; } = false;
 
     [Category("Overworld outfits")]
     [DisplayName("Winter Uniform")]
     [Description("Select your preferred Winter uniform.")]
     [DefaultValue(WinterUniformBHH.Default)]
-    [Display(Order = 1)]
+    [Display(Order = 2)]
     public WinterUniformBHH WinterUniformBHHValue { get; set; }
 
     [Category("Overworld outfits")]
     [DisplayName("Summer Uniform")]
     [Description("Select your preferred Summer uniform.")]
     [DefaultValue(SummerUniformBHH.Default)]
-    [Display(Order = 2)]
+    [Display(Order = 3)]
     public SummerUniformBHH SummerUniformBHHValue { get; set; }
 
     [Category("Compatibility patches")]
     [DisplayName("Compatibility Patch for")]
     [Description("Select the protagonist mod you're using.")]
     [DefaultValue(CompatibilityPatchBHH.Default)]
-    [Display(Order = 3)]
+    [Display(Order = 4)]
     public CompatibilityPatchBHH CompatibilityPatchBHHValue { get; set; }
 
 }

@@ -100,6 +100,12 @@ public class Mod : ModBase // <= Do not Remove.
             if (_configuration.ColorPartyPanelBHH)
                 spdEmu.AddDirectory(Path.Combine(modDir, "OptionalModFiles", "EPICPartyPanel", "SPD"));
 
+            // No AOA portrait
+            if (_configuration.AOABHHValue)
+            {
+                BindAllFilesIn(Path.Combine("OptionalModFiles", "NoAOAFinisher"), modDir, criFsApi, modId);
+            }
+
             // Protagonist Compatibility patches
             if (_configuration.CompatibilityPatchBHHValue != Config.CompatibilityPatchBHH.Default)
                 {
@@ -115,6 +121,18 @@ public class Mod : ModBase // <= Do not Remove.
                     else if (_configuration.CompatibilityPatchBHHValue == Config.CompatibilityPatchBHH.HAPBlackPatch)
                         {
                             CompatibilityPatchBHHFolder = "HaruAsProtagBlackHair";
+                        }
+                    else if (_configuration.CompatibilityPatchBHHValue == Config.CompatibilityPatchBHH.FemaleProtagPatch)
+                        {
+                            CompatibilityPatchBHHFolder = "P5RFemaleProtag";
+                        }
+                    else if (_configuration.CompatibilityPatchBHHValue == Config.CompatibilityPatchBHH.BetaFEMCPatch)
+                        {
+                            CompatibilityPatchBHHFolder = "BetaFEMCRedux";
+                        }
+                    else if (_configuration.CompatibilityPatchBHHValue == Config.CompatibilityPatchBHH.P3MakotoPatch)
+                        {
+                            CompatibilityPatchBHHFolder = "P3MakotoProtag";
                         }
                     BindAllFilesIn(Path.Combine("OptionalModFiles", "CompatibilityPatches", CompatibilityPatchBHHFolder), modDir, criFsApi, modId);
                 }
