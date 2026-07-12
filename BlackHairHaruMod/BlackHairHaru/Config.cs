@@ -61,13 +61,13 @@ public class Config : Configurable<Config>
         [Display(Name = "Haru As Protagonist")]
         HAPPatch,
 
-        [Display(Name = "Haru As Protagonist (Black Hair)")]
+        [Display(Name = "Haru As Protagonist (Kawakami's hairstyle)")]
         HAPBlackPatch,
 
         [Display(Name = "P5R Female Protagonist")]
         FemaleProtagPatch,
 
-        [Display(Name = "Beta FEMC Redux")]
+        [Display(Name = "Beta FEMC Redux+")]
         BetaFEMCPatch,
 
         [Display(Name = "Makoto Yuki Over Joker")]
@@ -75,14 +75,14 @@ public class Config : Configurable<Config>
 
     }        
 
-    [Category("Bustups and sprites")]
+    [Category("Sprites and visuals")]
     [DisplayName("Epic Partypanel In Color")]
-    [Description("Colorful sprites in battle. By Zrego.")]
+    [Description("Colorful sprites in battle.")]
     [DefaultValue(false)]
     [Display(Order = 0)]
     public bool ColorPartyPanelBHH { get; set; } = false;
 
-    [Category("Bustups and sprites")]
+    [Category("Sprites and visuals")]
     [DisplayName("No All-Out-Attack Portrait")]
     [Description("Removes the All-Out-Attack finisher art. By lyncpk.")]
     [DefaultValue(false)]
@@ -103,9 +103,9 @@ public class Config : Configurable<Config>
     [Display(Order = 3)]
     public SummerUniformBHH SummerUniformBHHValue { get; set; }
 
-    [Category("Compatibility patches")]
+    [Category("Compatibility with protagonist mods")]
     [DisplayName("Compatibility Patch for")]
-    [Description("Select the protagonist mod you're using.")]
+    [Description("Select the protagonist mod you want compatibility for.")]
     [DefaultValue(CompatibilityPatchBHH.Default)]
     [Display(Order = 4)]
     public CompatibilityPatchBHH CompatibilityPatchBHHValue { get; set; }
