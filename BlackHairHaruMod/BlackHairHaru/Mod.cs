@@ -114,6 +114,10 @@ public class Mod : ModBase // <= Do not Remove.
                         {
                             CompatibilityPatchBHHFolder = "KasumiAsProtag";
                         }
+                    else if (_configuration.CompatibilityPatchBHHValue == Config.CompatibilityPatchBHH.GyaAPPatch)
+                        {
+                            CompatibilityPatchBHHFolder = "GyasumiAsProtag";
+                        }
                     else if (_configuration.CompatibilityPatchBHHValue == Config.CompatibilityPatchBHH.HAPPatch)
                         {
                             CompatibilityPatchBHHFolder = "HaruAsProtag";

@@ -58,6 +58,9 @@ public class Config : Configurable<Config>
         [Display(Name = "Kasumi As Protagonist")]
         KAPPatch,
 
+        [Display(Name = "Gyasumi As Protagonist")]
+        GyaAPPatch,    
+
         [Display(Name = "Haru As Protagonist")]
         HAPPatch,
 
