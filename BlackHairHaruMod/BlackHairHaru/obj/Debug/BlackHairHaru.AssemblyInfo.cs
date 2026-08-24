@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlackHairHaru")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9aa6015882ef7861fef9ca711af3702021ebdb88")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c7359f905fcd40a3d34124f8d67937cb5e173db")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlackHairHaru")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlackHairHaru")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

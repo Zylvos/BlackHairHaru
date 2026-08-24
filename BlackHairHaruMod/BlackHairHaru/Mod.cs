@@ -129,6 +129,7 @@ public class Mod : ModBase // <= Do not Remove.
                     else if (_configuration.CompatibilityPatchBHHValue == Config.CompatibilityPatchBHH.FemaleProtagPatch)
                         {
                             CompatibilityPatchBHHFolder = "P5RFemaleProtag";
+                            spdEmu.AddDirectory(Path.Combine(modDir, "OptionalModFiles", "CompatibilityPatches", "P5RFemaleProtag", "SPD"));
                         }
                     else if (_configuration.CompatibilityPatchBHHValue == Config.CompatibilityPatchBHH.BetaFEMCPatch)
                         {
